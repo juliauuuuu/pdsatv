@@ -6,7 +6,7 @@ public class Produto {
     }
 
     public double aplicarDesconto(double percentual) {
-        System.out.println("Produto: Aplicando " + (percentual * 100) + "% de desconto.");
+        System.out.println("Produto: Novo sistema aplicando " + (percentual * 100) + "% de desconto.");
         return 50.0;
     }
 
@@ -14,4 +14,5 @@ public class Produto {
         System.out.println("Produto: Checando disponibilidade para " + quantidadeDesejada + " unidade(s).");
         return true;
     }
+
 }
